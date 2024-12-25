@@ -8,6 +8,10 @@
 
 # Installation
 
+First, you need to install a UxTheme patcher to allow custom `.msstyles` themes since Microsoft locks them out by default. Some options include the Windhawk mod [UXTheme hook](https://windhawk.net/mods/uxtheme-hook) and [SecureUxTheme](https://github.com/namazso/SecureUxTheme).
+
+_This theme has only been tested using the UXTheme hook Windhawk mod._
+
 Currently, no theme file for easy install is provided. You can download the latest `10ThemeFor11.msstyles` file from the repository and manually place it in the themes folder for now.
 
 ### Recommendations
