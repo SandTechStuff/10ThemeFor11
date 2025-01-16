@@ -12,7 +12,20 @@ First, you need to install a UxTheme patcher to allow custom `.msstyles` themes 
 
 _This theme has only been tested using the UXTheme hook Windhawk mod._
 
-Currently, no theme file for easy install is provided. You can download the latest `10ThemeFor11.msstyles` file from the repository and manually place it in the themes folder for now.
+1. After patching UxTheme, download the latest release of the theme from [Releases](https://github.com/SandTechStuff/10ThemeFor11/releases) (10ThemeFor11.zip).
+2. Extract the downloaded zip and place the contents in `C:\Windows\Resources\Themes`.
+
+_The file structure should resemble this._
+
+- `C:`
+	- `Windows`
+		- `Resources`
+			- `Themes`
+				- `10ThemeFor11`
+				- `10ThemeFor11_Dark.theme`
+				- `10ThemeFor11_Light.theme`
+3. Either double click one of the `.theme` files from within the `Themes` folder or select your desired theme from within Windows settings.
+4. The theme come bundled with the Windows 10 wallpaper and accent color, but if you would prefer to use your own wallpapers or colors you can override anything through Windows personalization settings.
 
 ### Recommendations
 
