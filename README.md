@@ -25,7 +25,7 @@ _The file structure should resemble this._
 				- `10ThemeFor11_Dark.theme`
 				- `10ThemeFor11_Light.theme`
 3. Either double click one of the `.theme` files from within the `Themes` folder or select your desired theme from within Windows settings.
-4. The theme come bundled with the Windows 10 wallpaper and accent color, but if you would prefer to use your own wallpapers or colors you can override anything through Windows personalization settings.
+4. The theme comes bundled with the Windows 10 wallpaper and accent color, but if you would prefer to use your own wallpapers or colors you can override anything through Windows personalization settings.
 
 ### Recommendations
 
