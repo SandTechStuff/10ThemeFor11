@@ -4,6 +4,9 @@
 > This theme is about 50% complete. To track its progress, check the ["Theme Progress"](https://github.com/SandTechStuff/10ThemeFor11/issues/1) issue.
 > When most assets are completed, a proper theme will be provided in releases.
 
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/SandTechStuff/10ThemeFor11/total)
+![GitHub last commit](https://img.shields.io/github/last-commit/SandTechStuff/10ThemeFor11)
+
 10ThemeFor11 is an `.msstyles` theme for Windows 11 that aims to provide accurate Windows 10 controls, to the greatest extent that Windows 11 allows.
 
 # Installation
