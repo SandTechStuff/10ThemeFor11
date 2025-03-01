@@ -30,6 +30,10 @@ _The file structure should resemble this._
 3. Either double click one of the `.theme` files from within the `Themes` folder or select your desired theme from within Windows settings.
 4. The theme comes bundled with the Windows 10 wallpaper and accent color, but if you would prefer to use your own wallpapers or colors you can override anything through Windows personalization settings.
 
+# Optional: Windows 10 Sounds
+
+If you would like to use the Windows 10 sounds, grab a copy of the `C:\Windows\Media` folder from a Windows 10 install and put the contents into `C:\Windows\Resources\Themes\10ThemeFor11\Sounds`. Apply one of the included `.theme` files and the sounds should be loaded.
+
 ### Recommendations
 
 I recommend using the _Disable Rounded Corners on Windows 11_ Windhawk mod. As most Windows 10 controls have sharp corners, having rounded windows can look strange.
