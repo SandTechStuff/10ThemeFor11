@@ -1,8 +1,11 @@
 # 10ThemeFor11
 
 > [!NOTE]  
-> This theme is about 50% complete. To track its progress, check the ["Theme Progress"](https://github.com/SandTechStuff/10ThemeFor11/issues/1) issue.
+> This theme is about 75% complete. To track its progress, check the ["Theme Progress"](https://github.com/SandTechStuff/10ThemeFor11/issues/1) issue.
 > When most assets are completed, a proper theme will be provided in releases.
+
+> [!WARNING]
+> Windows builds after Canary 27818 (25H2) are not currently supported.
 
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/SandTechStuff/10ThemeFor11/total)
 ![GitHub last commit](https://img.shields.io/github/last-commit/SandTechStuff/10ThemeFor11)
