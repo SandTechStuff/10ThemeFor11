@@ -5,7 +5,7 @@
 > When most assets are completed, a proper theme will be provided in releases.
 
 > [!WARNING]
-> Windows builds after Canary 27813 (25H2) are not currently supported.
+> Windows builds after Canary 27813 (25H2) are not currently supported. Check https://github.com/SandTechStuff/10ThemeFor11/issues/3 for more information.
 
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/SandTechStuff/10ThemeFor11/total)
 ![GitHub last commit](https://img.shields.io/github/last-commit/SandTechStuff/10ThemeFor11)
