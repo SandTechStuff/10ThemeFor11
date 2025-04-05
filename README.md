@@ -12,6 +12,8 @@
 
 10ThemeFor11 is an `.msstyles` theme for Windows 11 that aims to provide accurate Windows 10 controls, to the greatest extent that Windows 11 allows.
 
+![Screenshot](screenshot.png)
+
 # Installation
 
 First, you need to install a UxTheme patcher to allow custom `.msstyles` themes since Microsoft locks them out by default. Some options include the Windhawk mod [UXTheme hook](https://windhawk.net/mods/uxtheme-hook) and [SecureUxTheme](https://github.com/namazso/SecureUxTheme).
@@ -37,9 +39,25 @@ _The file structure should resemble this._
 
 If you would like to use the Windows 10 sounds, grab a copy of the `C:\Windows\Media` folder from a Windows 10 install and put the contents into `C:\Windows\Resources\Themes\10ThemeFor11\Sounds`. Apply one of the included `.theme` files and the sounds should be loaded.
 
-### Recommendations
+# Optional: Windows 10 Shadows, Corners, and Effects
 
-I recommend using the _Disable Rounded Corners on Windows 11_ Windhawk mod. As most Windows 10 controls have sharp corners, having rounded windows can look strange.
+Restoring the Windows 10 shadows and acrylic along with removing rounded corners and Mica requires patching `uDWM.dll`.
+
+> [!WARNING]
+> Patching DWM is no small feat! If performed incorrectly, it can temporarily prevent Windows from loading properly. While the tools displayed here are generally safe to use, make sure to create backups of `C:\Windows\System32\uDWM.dll` before proceeding.
+
+There are two ways to apply the DWM patches: by replacing `uDWM.dll` on disk or by patching in-memory with a [Windhawk](https://windhawk.net/) mod. 
+
+| Method       | Pros                                | Cons                                  |
+|--------------|-------------------------------------|---------------------------------------|
+| On Disk      | More stable, More accurate.         | Harder to install, Harder to recover. |
+| Windhawk Mod | Easy to install, Easier to recover. | More bugs, Less accurate.             |
+
+If you are less experienced with Windows modding, I recommend the Windhawk mod for ease of use. If you are well versed in Windows modding, I recommend the on disk `uDWM.dll` patch for higher accuracy and stability.
+
+Windhawk mod: https://windhawk.net/mods/w11-dwm-fix
+
+[@ittrgrey](https://github.com/ittrgrey)'s on disk patch: https://winclassic.net/thread/2853/udwm-borders-shadows-acrylic-windows
 
 ### Why not use the stock Windows 10 `aero.msstyles` file?
 
